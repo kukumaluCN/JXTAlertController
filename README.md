@@ -1,4 +1,6 @@
 # JXTAlertController
+[![License MIT](https://img.shields.io/badge/license-MIT-green.svg?style=flat)](https://github.com/kukumaluCN/JXTAlertController/blob/master/LICENSE)
+
 基于UIAlertController的封装，利用链式语法，使得UIAlertController使用起来更简单。
 
 ## JXTAlertController(>=iOS8)
