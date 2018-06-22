@@ -1,0 +1,2 @@
+# JXTAlertController
+基于UIAlertController的封装，利用链式语法，使得UIAlertController使用起来更简单。
