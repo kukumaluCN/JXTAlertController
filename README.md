@@ -1,11 +1,28 @@
 # JXTAlertController
-[![License MIT](https://img.shields.io/badge/license-MIT-green.svg?style=flat)](https://github.com/kukumaluCN/JXTAlertController/blob/master/LICENSE)
+
+[![CocoaPods compatible](https://img.shields.io/cocoapods/v/JXTAlertController.svg?style=flat)](https://cocoapods.org/pods/JXTAlertController)&nbsp;
+[![Support](https://img.shields.io/badge/support-iOS%208%2B%20-green.svg?style=flat)](https://www.apple.com/nl/ios/)&nbsp;
+[![License: MIT](https://img.shields.io/cocoapods/l/JXTAlertController.svg?style=flat)](http://opensource.org/licenses/MIT)
+
 
 基于UIAlertController的封装，利用链式语法，使得UIAlertController使用起来更简单。
 
 ## JXTAlertController(>=iOS8)
 
-### 1.alert
+### 1.安装
+#### CocoaPods
+- 1.在 Podfile 中添加 pod 'JXTAlertController'。  
+- 2.执行 pod install 或 pod update。  
+- 3.导入 \<JXTAlertController/JXTAlertController.h\>。  
+
+**注意：**  
+如果执行`pod search JXTAlertController`检索不到，考虑使用`pod search JXTAlertController --simple`命令，或者尝试更新本地库。
+
+
+### 2.示例（更多用法详见demo）
+#### 2.1.常规用法
+在某一VC内：
+
 ```objective-c
 [self jxt_showAlertWithTitle:@"title"
                      message:@"message"
@@ -23,7 +40,8 @@
 }];
 ```
 
-### 2.添加textField
+#### 2.2.支持添加textField
+
 ```objective-c
 [self jxt_showAlertWithTitle:@"title"
                      message:@"message"
